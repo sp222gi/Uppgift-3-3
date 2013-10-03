@@ -1,1 +1,193 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+img
+{
+    float                   :   left;
+    margin-right            :   10px;
+}
+/*----------------------------------------------------------------------------*/
+#container
+{
+    margin-right            :   auto;
+    margin-left             :   auto;
+    width                   :   600px;
+    overflow                :   auto;
+    background              :   #51473D;
+    padding-top             :   0px;
+}
+/*----------------------------------------------------------------------------*/
+#topbar
+{
+    text-align              :   right;
+    width                   :   600px;
+    color                   :   #EAE7D2;
+    background              :   #51473D;
+    font-style              :   oblique;
+    font-size               :   12px;
+    font-weight             :   lighter;
+    letter-spacing          :   1px;
+    overflow                :   auto;
+}
+/*----------------------------------------------------------------------------*/
+#menu
+{
+	width                   :   600px;
+	height                  :   235px;
+	margin                  :   0;
+	padding                 :   0;
+	background              :   #51473D;
+	overflow                :   auto;
+	background-image        :   url(pics/coffey.jpg);
+	background-repeat       :   no-repeat;
+}
+    #menu li
+    {
+        position            :   relative;
+     	bottom              :   -176px;
+     	left                :   -30px;
+        display             :   inline;
+        list-style-type     :   none;
+        font-family         :   Verdana;
+        font-size           :   13px;
+    }
+    #menu a
+    {
+        text-align          :   center;
+        text-decoration     :   none;
+        margin              :   -1px;
+    	padding-top         :   5px;
+    	padding-left        :   10px;
+    	padding-right       :   10px;
+    	padding-bottom      :   5px;
+        color               :   #797066;
+        background          :   #000000;
+    }
+    #menu a:link
+    {
+        color               :   #EAE7D2;
+        background          :   #797066;
+    }
+    #menu a:visited
+    {
+        color               :   #EAE7D2;
+        background          :   #797066;
+    }
+    #menu a:hover
+    {
+        color               :   #EAE7D2;
+        background          :   #9C9084;    
+    }
+    #menu a:active
+    { 
+        color               :   #797066;
+        background          :   #EAE7D2;
+    }
+/*----------------------------------------------------------------------------*/
+#content
+{
+    width                   :   598px;
+    overflow                :   auto;
+    background              :   #EAE7D2;
+    border-left             :   1px solid #9C9084;
+    border-right            :   1px solid #9C9084;
+    border-bottom           :   1px solid #9C9084;
+}
+/*----------------------------------------------------------------------------*/
+#maincontent
+{
+	float                   :   left;
+	width                   :   350px;
+	margin                  :   0;
+	padding-left            :   10px;
+	padding-right           :   10px;
+	list-style-type         :   none;
+	background              :   #EAE7D2;
+}
+    #maincontent h1
+    {
+        font-weight         :   lighter;
+        margin-top          :   15px;
+        margin-bottom       :   20px;
+        margin-left         :   0;
+        color               :   #797066;
+        font-family         :   Times new roman;
+    }
+    #maincontent p
+    {
+        font-size           :   14px;
+        color               :   #797066;
+        font-family         :   Verdana;
+    }
+/*----------------------------------------------------------------------------*/
+#subcontent
+{
+    float                   :   right;
+    position                :   relative;
+    top                     :   20px;
+	width                   :   200px;
+	margin-top              :   0;
+	padding-top             :   0;
+	padding-left            :   10px;
+	padding-right           :   10px;
+	list-style-type         :   none;
+	background              :   #EAE7D2;
+	border-left             :   1px dashed #9C9084;
+}
+    #subcontent h1
+    {
+        font-weight         :   lighter;
+        position            :   relative;
+     	left                :   -20px;
+     	bottom              :   0;
+        font-size           :   17px;
+        margin              :   0;
+        padding             :   20px;
+        color               :   #797066;
+    }
+    #subcontent h2
+    {
+        margin              :   0;
+        padding             :   0;
+        font-size           :   15px;
+        color               :   #797066;
+    }
+    #subcontent p
+    {
+        font-family         :   verdana;
+        letter-spacing      :   1px;
+        line-height         :   17px;
+        font-size           :   10px;
+        color               :   #797066;
+    }
+    #subcontent li
+    {
+     	position            :   relative;
+     	left                :   -40px;
+     	top                 :   -15px;
+     	display             :   block;
+        text-decoration     :   none;
+    }
+    #subcontent a
+    {
+        color               :   #797066;
+    }
+    #subcontent a:visited
+    {
+        color               :   #797066;
+    }
+/*----------------------------------------------------------------------------*/
+#bottomcontent
+{
+    float                   :   left;
+    position                :   relative;
+    bottom                  :   2px;
+    overflow                :   auto;
+    width                   :   578px;
+    padding-left            :   10px;
+	padding-right           :   10px;
+	padding-bottom          :   10px;
+	font-size               :   12px;
+	font-style              :   oblique;
+    color                   :   #797066;
+    background              :   #EAE7D2;
+}
+/*----------------------------------------------------------------------------*/
